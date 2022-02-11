@@ -14,7 +14,7 @@ void AkumulasiData()
 
 }
 
-void akumulasiPerGolongan(char Gol_dar[3])
+void akumulasiPerGolongan(char Gol_dar[3]) //Haposan
 {
 
 }
