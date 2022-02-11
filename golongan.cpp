@@ -6,7 +6,7 @@
 
 void EntryData()	//SALMAN
 {
-
+cek cek mari belajar
 }
 
 void AkumulasiData()
