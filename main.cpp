@@ -26,15 +26,33 @@ int main (){
 		{
 			case 1:
 				{
-
+					system("cls");
+					EntryData();
+					system("cls");
+					break;
 				}
 			case 2:
 				{
-
+					system("cls");
+					tampilData_a();
+					system("pause");
+					system("cls");
+					break;
 				}
 			case 3:
 				{
-
+					system("cls");
+					AkumulasiData();
+					printf("Ketik 0 untuk menampilkan Data : ");
+					scanf("%d",&pil);
+					if(pil==0)
+					{
+						system("cls");
+						tampilData_b();
+						system("pause");
+					}
+					system("cls");
+					main();
 				}
 			case 4:
 				{
@@ -42,7 +60,9 @@ int main (){
 				}
 			default:
 				{
-
+					system("cls");
+					printf("/t\n\n\nSalah Input Masukan Kembali");
+					system("cls");
 				}
 		}
 	}
