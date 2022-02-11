@@ -10,12 +10,17 @@ void tampilData_b(); // PROSEDUR MENAMPILAN DATA DARI FILE B
 
 typedef struct
 {
-	
+	char kelas[4];
+	char NIM[10];
+	char Gol_Darah[3];
+	char jk ;
 }Data_a;
 
 typedef struct
 {
-
+	char Gol_Darah[3];
+	int Jml_pria;
+	int Jml_wanita;
 }Data_b;
 
 #endif
