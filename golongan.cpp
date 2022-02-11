@@ -11,7 +11,12 @@ void EntryData()	//SALMAN
 
 void AkumulasiData()
 {
-
+	remove("FILE_B.DAT");
+	
+	akumulasiPerGolongan("A");
+	akumulasiPerGolongan("AB");
+	akumulasiPerGolongan("B");
+	akumulasiPerGolongan("O");
 }
 
 void akumulasiPerGolongan(char Gol_dar[3])
